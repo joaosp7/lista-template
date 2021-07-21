@@ -1,0 +1,65 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{kpfonts} %é a fonte bacana se nao quiser usar ela, so apagar.
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{physics}
+\usepackage{siunitx}
+\usepackage{tensor}
+\usepackage{caption}
+\input{commands}
+\newcommand{\ihat}{\hat{\textbf{\i}}}
+\newcommand{\jhat}{\hat{\textbf{\j}}}
+\newcommand{\khat}{\hat{\textbf{k}}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\<}{\langle}
+\renewcommand{\>}{\rangle}
+\usepackage[brazil]{varioref} 
+\usepackage[colorlinks  = true, 
+                urlcolor    = blue, 
+                anchorcolor = blue, 
+                citecolor   = blue, 
+                filecolor   = blue, 
+                linkcolor   = blue, 
+                menucolor   = blue, 
+                linktocpage = true, 
+                bookmarks   = true,
+                pdfusetitle]{hyperref} % Hyperlinks in pdf
+\usepackage[capitalize,brazilian]{cleveref} % Clever references
+
+\author{Aluno - Código do Aluno}
+\title{Lista  - Código da Disciplina}
+\date{}
+\begin{document}
+
+%%--CABEÇALHO--%%
+	\begin{center}
+    {\huge Lista de Exercícios \par}
+    {\LARGE Disciplina \par}
+    {\Large Código da Disciplina \par}
+	\end{center}
+
+\problem Este é o problema número 1
+\answer Este é o desenvolvimento da resposta ao problema 1, incluindo os passos lógicos necessários e etc...
+\finalanswer{\text{Esta é a resposta final ao problema 1}}
+
+\problem É possível adicionar subproblemas?
+	\subproblem Sim, é possível
+	\subanswer Subrespostas também são possíveis
+\problem Posso criar problemas de múltipla escolha?
+
+    
+\begin{subitemize}
+    \option Não
+    \thisone Sim
+    \option Talvez
+\end{subitemize}
+
+\end{document}
